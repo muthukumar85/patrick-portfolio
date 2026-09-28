@@ -522,8 +522,8 @@ export const services = [
 ];
 
 export const stats = [
-  { value: "150+", label: "Projects Delivered" },
-  { value: "8+", label: "Years Experience" },
-  { value: "40+", label: "Happy Clients" },
-  { value: "12", label: "Awards Won" },
+  { value: "50+", label: "Projects Delivered" },
+  { value: "3+ Years", label: "Field Experience" },
+  { value: "15+", label: "Happy Clients" },
+  { value: "4", label: "Cameras Handled" }
 ];

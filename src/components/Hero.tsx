@@ -128,9 +128,9 @@ export default function Hero() {
             style={{ marginTop: '12px', marginBottom: '8px' }}
           >
             {[
-              { value: "50+", label: "Projects" },
-              { value: "2 Yrs", label: "Experience" },
-              { value: "10+", label: "Clients" },
+              { value: "30+", label: "Projects" },
+              { value: "3+ Yrs", label: "Field Experience" },
+              { value: "15+", label: "Clients" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="font-display text-3xl text-orange-400 tracking-wide">{stat.value}</div>

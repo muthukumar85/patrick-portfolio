@@ -63,7 +63,7 @@ export default function About() {
             </div>
 
             {/* Floating stats cards */}
-            <div className="absolute -bottom-6 -right-4 grid grid-cols-2 gap-3 p-4 glass-card rounded-2xl border border-white/10">
+            <div className="absolute -bottom-6 -right-4 grid grid-cols-2 gap-3 p-4 glass-card rounded-2xl border border-white/10" style={{ padding: '8px' }}>
               {stats.map((stat) => (
                 <div key={stat.label} className="text-center px-4 py-3">
                   <div className="font-display text-2xl text-orange-400 tracking-wide">{stat.value}</div>

@@ -4,6 +4,7 @@ import Showreel from "./components/Showreel";
 import Companies from "./components/Companies";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
+import CameraSystems from "./components/CameraSystems";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -26,6 +27,7 @@ export default function App() {
         <Showreel />
         <Portfolio />
         <About />
+        <CameraSystems />
         <Services />
         <Contact />
       </main>

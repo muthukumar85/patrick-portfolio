@@ -110,7 +110,7 @@ const GridSection = ({
 
                 {/* Duration badge */}
                 {item.duration && (
-                  <div className="absolute top-3 right-3 z-20 flex items-center gap-1 bg-black/70 backdrop-blur-sm rounded px-2 py-1">
+                  <div className="absolute top-3 right-3 z-20 flex items-center gap-1 bg-black/70 backdrop-blur-sm rounded px-2 py-1" style={{ padding: '3px' }}>
                     <Clock size={10} className="text-orange-400" />
                     <span className="text-white text-xs font-medium">{item.duration}</span>
                   </div>
@@ -192,7 +192,7 @@ export default function Portfolio() {
             items={brandFilms}
             aspectRatio="16/9"
             setSelectedItem={setSelectedItem}
-            driveLink="https://drive.google.com"
+            driveLink="https://drive.google.com/drive/folders/1IGizU_BfcGJDoKwoOiVwz1AstojfgteK"
           />
 
           <GridSection
@@ -200,7 +200,7 @@ export default function Portfolio() {
             items={motionGraphics}
             aspectRatio="16/9"
             setSelectedItem={setSelectedItem}
-            driveLink="https://drive.google.com"
+            driveLink="https://drive.google.com/drive/folders/1IGizU_BfcGJDoKwoOiVwz1AstojfgteK"
           />
 
           <GridSection
@@ -208,7 +208,7 @@ export default function Portfolio() {
             items={liveEvents}
             aspectRatio="16/9"
             setSelectedItem={setSelectedItem}
-            driveLink="https://www.instagram.com/patz_rick007"
+            driveLink="https://drive.google.com/drive/folders/1IGizU_BfcGJDoKwoOiVwz1AstojfgteK"
           />
 
           <GridSection
@@ -216,7 +216,7 @@ export default function Portfolio() {
             items={shortFormContent}
             aspectRatio="16/9"
             setSelectedItem={setSelectedItem}
-            driveLink="https://www.instagram.com/patz_rick007"
+            driveLink="https://drive.google.com/drive/folders/1IGizU_BfcGJDoKwoOiVwz1AstojfgteK"
           />
 
           <GridSection
@@ -224,7 +224,7 @@ export default function Portfolio() {
             items={nightlifeParty}
             aspectRatio="16/9"
             setSelectedItem={setSelectedItem}
-            driveLink="https://www.instagram.com/patz_rick007"
+            driveLink="https://drive.google.com/drive/folders/1IGizU_BfcGJDoKwoOiVwz1AstojfgteK"
           />
 
           <GridSection
@@ -232,7 +232,7 @@ export default function Portfolio() {
             items={transformationPortraits}
             aspectRatio="16/9"
             setSelectedItem={setSelectedItem}
-            driveLink="https://www.instagram.com/patz_rick007"
+            driveLink="https://drive.google.com/drive/folders/1IGizU_BfcGJDoKwoOiVwz1AstojfgteK"
           />
 
           <GridSection
@@ -240,7 +240,7 @@ export default function Portfolio() {
             items={testimonialWorks}
             aspectRatio="9/16"
             setSelectedItem={setSelectedItem}
-            driveLink="https://www.instagram.com/patz_rick007"
+            driveLink="https://drive.google.com/drive/folders/1IGizU_BfcGJDoKwoOiVwz1AstojfgteK"
           />
 
           <GridSection
@@ -248,7 +248,7 @@ export default function Portfolio() {
             items={informativeFastCuts}
             aspectRatio="16/9"
             setSelectedItem={setSelectedItem}
-            driveLink="https://www.instagram.com/patz_rick007"
+            driveLink="https://drive.google.com/drive/folders/1IGizU_BfcGJDoKwoOiVwz1AstojfgteK"
           />
 
           <GridSection
@@ -256,7 +256,7 @@ export default function Portfolio() {
             items={constructionBrandContent}
             aspectRatio="9/16"
             setSelectedItem={setSelectedItem}
-            driveLink="https://drive.google.com"
+            driveLink="https://drive.google.com/drive/folders/1IGizU_BfcGJDoKwoOiVwz1AstojfgteK"
           />
 
           {/* <GridSection

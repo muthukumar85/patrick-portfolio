@@ -7,9 +7,6 @@ export default function Showreel() {
   const [muted, setMuted] = useState(true);
   const iframeRef = useRef<HTMLDivElement>(null);
 
-  // YouTube embed URL (replace with actual showreel)
-  const showreelId = "LXb3EKWsInQ"; // placeholder cinematic showreel
-
   return (
     <section id="showreel" className="relative py-28 bg-[#080808]" style={{ padding: '1.5rem' }}>
       {/* Section header */}
@@ -82,7 +79,7 @@ export default function Showreel() {
               </motion.div>
 
               <div className="absolute bottom-8 left-8 z-10">
-                <p className="font-display text-3xl text-white tracking-widest">2024 SHOWREEL</p>
+                <p className="font-display text-3xl text-white tracking-widest">2026 SHOWREEL</p>
                 <p className="text-white/40 text-sm mt-1">Click to play · 3:42</p>
               </div>
             </div>
@@ -91,8 +88,8 @@ export default function Showreel() {
           {/* YouTube Embed */}
           {playing && (
             <iframe
-              src={`https://www.youtube.com/embed/${showreelId}?autoplay=1&mute=${muted ? 1 : 0}&rel=0&showinfo=0&controls=1`}
-              title="Patrick Ruban Video Showreel 2024"
+              src={`https://drive.google.com/file/d/1dlnxl-1Y9giNo9zyBv2aSZyLZdoQMAvS/preview?autoplay=1&mute=${muted ? 1 : 0}&rel=0&showinfo=0&controls=1`}
+              title="Patrick Ruban Video Showreel 2026"
               className="absolute inset-0 w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
