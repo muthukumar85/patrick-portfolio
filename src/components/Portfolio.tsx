@@ -162,9 +162,6 @@ export default function Portfolio() {
   const testimonialWorks = portfolioItems.filter(p => p.category === "Testimonial Works");
   const informativeFastCuts = portfolioItems.filter(p => p.category === "Informative & Fast cuts");
   const constructionBrandContent = portfolioItems.filter(p => p.category === "Construction Brand Content");
-  const essentialWorks = portfolioItems.filter(p => p.category === "EssentialWorks");
-  const socialMedia = portfolioItems.filter(p => p.category === "SocialMedia");
-  const photoshoots = portfolioItems.filter(p => p.category === "Photoshoots");
 
   return (
     <>
