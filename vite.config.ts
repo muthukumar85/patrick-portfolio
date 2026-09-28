@@ -6,7 +6,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    allowedHosts: ['drag-eco-luxury-translation.trycloudflare.com'],
+    allowedHosts: ['drag-eco-luxury-translation.trycloudflare.com', 'patrick-ruban.netlify.app'],
 
   },
   build: {
